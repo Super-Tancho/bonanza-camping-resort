@@ -17,3 +17,8 @@
  ✓ Compiled /services in 459ms (1186 modules)
  ✓ Compiled /contact in 488ms (1200 modules)
  GET /contact 200 in 606ms
+  ▲ Next.js 14.2.28
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 1422ms

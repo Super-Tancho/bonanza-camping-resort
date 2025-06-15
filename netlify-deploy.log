@@ -1,0 +1,9 @@
+Logging into your Netlify account...
+Opening https://app.netlify.com/authorize?response_type=ticket&ticket=f5f20799f8a5a106b17591b21093ad74
+---------------------------
+Error: Unable to open browser automatically: Running inside a docker container
+Please open your browser and open the URL below:
+https://app.netlify.com/authorize?response_type=ticket&ticket=f5f20799f8a5a106b17591b21093ad74
+---------------------------
+⠋ Waiting for authorization...
+[1G ›   Error: Timed out waiting for authorization. If you do not have a Netlify account, please create one at https://app.netlify.com/signup, then run netlify login again.
