@@ -1,0 +1,27 @@
+  ▲ Next.js 14.2.28
+  - Local:        http://localhost:3000
+  - Experiments (use with caution):
+    · outputFileTracingRoot
+
+ ✓ Starting...
+ ✓ Ready in 1610ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2.2s (1166 modules)
+ GET / 200 in 2702ms
+ ✓ Compiled in 409ms (584 modules)
+ ○ Compiling /contact ...
+ ✓ Compiled /contact in 1155ms (1200 modules)
+ GET /about 200 in 1384ms
+ GET / 200 in 1384ms
+ GET /contact 200 in 1380ms
+ GET /services 200 in 1401ms
+ GET /contact 200 in 56ms
+ GET /services 200 in 62ms
+ GET /about 200 in 65ms
+ GET / 200 in 67ms
+ GET / 200 in 26ms
+ GET /about 200 in 26ms
+ GET /services 200 in 33ms
+ GET /contact 200 in 28ms
+ GET / 200 in 35ms
+[?25h

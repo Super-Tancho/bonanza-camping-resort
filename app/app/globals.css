@@ -1,0 +1,57 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --forest-green: #2d5016;
+  --sage-green: #87a96b;
+  --golden-yellow: #d4af37;
+  --wood-brown: #8b4513;
+  --cream: #f5f5dc;
+  --earth-brown: #6b4423;
+}
+
+@layer base {
+  * {
+    @apply border-gray-200;
+  }
+  body {
+    @apply bg-white text-gray-900;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-golden-yellow hover:bg-golden-yellow/90 text-forest-green font-semibold px-6 py-3 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl;
+  }
+  
+  .btn-secondary {
+    @apply bg-forest-green hover:bg-forest-green/90 text-cream font-semibold px-6 py-3 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl;
+  }
+  
+  .section-padding {
+    @apply px-4 sm:px-6 lg:px-8 py-16 lg:py-24;
+  }
+  
+  .container-max {
+    @apply max-w-7xl mx-auto;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-forest-green to-sage-green bg-clip-text text-transparent;
+  }
+}
+
+.parallax-bg {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .parallax-bg {
+    background-attachment: scroll;
+  }
+}

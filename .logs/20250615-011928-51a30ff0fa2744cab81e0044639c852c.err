@@ -1,0 +1,152 @@
+ ⚠ ./components/features-section.tsx
+Attempted import error: 'Shower' is not exported from '__barrel_optimize__?names=Car,MapPin,Shield,Shower,Utensils,Wifi!=!lucide-react' (imported as 'Shower').
+
+Import trace for requested module:
+./components/features-section.tsx
+./app/page.tsx
+
+./components/services-overview.tsx
+Attempted import error: 'Campfire' is not exported from '__barrel_optimize__?names=Camera,Campfire,Fish,Mountain,Tent,TreePine!=!lucide-react' (imported as 'Campfire').
+
+Import trace for requested module:
+./components/services-overview.tsx
+./app/page.tsx
+
+./components/features-section.tsx
+Attempted import error: 'Shower' is not exported from '__barrel_optimize__?names=Car,MapPin,Shield,Shower,Utensils,Wifi!=!lucide-react' (imported as 'Shower').
+
+Import trace for requested module:
+./components/features-section.tsx
+./app/page.tsx
+
+./components/services-overview.tsx
+Attempted import error: 'Campfire' is not exported from '__barrel_optimize__?names=Camera,Campfire,Fish,Mountain,Tent,TreePine!=!lucide-react' (imported as 'Campfire').
+
+Import trace for requested module:
+./components/services-overview.tsx
+./app/page.tsx
+Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+    at ServicesOverview
+    at HomePage
+    at ClientPageRoot (/home/ubuntu/bonanza-camping/app/.next/server/vendor-chunks/next.js:1009:11)
+    at Lazy
+    at InnerLayoutRouter (/home/ubuntu/bonanza-camping/app/.next/server/vendor-chunks/next.js:1588:11)
+    at RedirectErrorBoundary (/home/ubuntu/bonanza-camping/app/.next/server/vendor-chunks/next.js:10198:9)
+    at RedirectBoundary (/home/ubuntu/bonanza-camping/app/.next/server/vendor-chunks/next.js:10206:11)
+    at NotFoundErrorBoundary (/home/ubuntu/bonanza-camping/app/.next/server/vendor-chunks/next.js:2272:9)
+    at NotFoundBoundary (/home/ubuntu/bonanza-camping/app/.next/server/vendor-chunks/next.js:2280:11)
+    at LoadingBoundary (/home/ubuntu/bonanza-camping/app/.next/server/vendor-chunks/next.js:1693:11)
+    at ErrorBoundary (/home/ubuntu/bonanza-camping/app/.next/server/vendor-chunks/next.js:1196:11)
+    at InnerScrollAndFocusHandler (/home/ubuntu/bonanza-camping/app/.next/server/vendor-chunks/next.js:1499:9)
+    at ScrollAndFocusHandler (/home/ubuntu/bonanza-camping/app/.next/server/vendor-chunks/next.js:1574:11)
+    at RenderFromTemplateContext (/home/ubuntu/bonanza-camping/app/.next/server/vendor-chunks/next.js:10394:44)
+    at Lazy
+    at OuterLayoutRouter (/home/ubuntu/bonanza-camping/app/.next/server/vendor-chunks/next.js:1713:11)
+    at Lazy
+    at main
+    at body
+    at html
+    at RedirectErrorBoundary (/home/ubuntu/bonanza-camping/app/.next/server/vendor-chunks/next.js:10198:9)
+    at RedirectBoundary (/home/ubuntu/bonanza-camping/app/.next/server/vendor-chunks/next.js:10206:11)
+    at ReactDevOverlay (/home/ubuntu/bonanza-camping/app/.next/server/vendor-chunks/next.js:2549:9)
+    at HotReload (/home/ubuntu/bonanza-camping/app/.next/server/vendor-chunks/next.js:2911:11)
+    at Router (/home/ubuntu/bonanza-camping/app/.next/server/vendor-chunks/next.js:573:11)
+    at ErrorBoundaryHandler (/home/ubuntu/bonanza-camping/app/.next/server/vendor-chunks/next.js:1150:9)
+    at ErrorBoundary (/home/ubuntu/bonanza-camping/app/.next/server/vendor-chunks/next.js:1196:11)
+    at AppRouter (/home/ubuntu/bonanza-camping/app/.next/server/vendor-chunks/next.js:935:13)
+    at Lazy
+    at r6 (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:19179)
+    at r6 (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:19179)
+    at ServerInsertedHTMLProvider (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:24963)
+ ⨯ Internal error: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+    at aw (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46775)
+    at a_ (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at aj (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at /opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42336
+    at aw (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42822)
+    at a_ (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at aj (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at /opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42336
+    at aw (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42822)
+    at a_ (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at aj (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at aC (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:52874)
+    at a_ (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50095)
+    at aj (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at /opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42336
+    at aw (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42822)
+    at a_ (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at aj (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at aC (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:52874)
+    at a_ (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50095)
+    at aj (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at /opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42336
+    at aw (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42822)
+    at a_ (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at aj (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at aC (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:52874)
+    at a_ (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50095)
+    at aw (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:45321)
+    at a_ (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at ab (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+    at aw (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:44769)
+    at a_ (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at aj (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at aC (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:52874)
+    at a_ (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50095)
+    at aj (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at /opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42336
+    at aw (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42822)
+    at a_ (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at aj (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at aC (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:52874)
+    at a_ (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50095)
+    at aj (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at /opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42336
+    at aw (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42822)
+    at a_ (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+    at aj (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:53793)
+    at /opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42336
+    at aw (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:42822)
+    at a_ (/opt/hostedapp/node/root/app/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+digest: "493455356"
+ ⚠ ./components/features-section.tsx
+Attempted import error: 'Shower' is not exported from '__barrel_optimize__?names=Car,MapPin,Shield,Shower,Utensils,Wifi!=!lucide-react' (imported as 'Shower').
+
+Import trace for requested module:
+./components/features-section.tsx
+./app/page.tsx
+
+./components/services-overview.tsx
+Attempted import error: 'Campfire' is not exported from '__barrel_optimize__?names=Camera,Campfire,Fish,Mountain,Tent,TreePine!=!lucide-react' (imported as 'Campfire').
+
+Import trace for requested module:
+./components/services-overview.tsx
+./app/page.tsx
+
+./components/features-section.tsx
+Attempted import error: 'Shower' is not exported from '__barrel_optimize__?names=Car,MapPin,Shield,Shower,Utensils,Wifi!=!lucide-react' (imported as 'Shower').
+
+Import trace for requested module:
+./components/features-section.tsx
+./app/page.tsx
+
+./components/services-overview.tsx
+Attempted import error: 'Campfire' is not exported from '__barrel_optimize__?names=Camera,Campfire,Fish,Mountain,Tent,TreePine!=!lucide-react' (imported as 'Campfire').
+
+Import trace for requested module:
+./components/services-overview.tsx
+./app/page.tsx
+ ⚠ ./components/features-section.tsx
+Attempted import error: 'Shower' is not exported from '__barrel_optimize__?names=Car,MapPin,Shield,Shower,Utensils,Wifi!=!lucide-react' (imported as 'Shower').
+
+Import trace for requested module:
+./components/features-section.tsx
+./app/page.tsx
+
+./components/features-section.tsx
+Attempted import error: 'Shower' is not exported from '__barrel_optimize__?names=Car,MapPin,Shield,Shower,Utensils,Wifi!=!lucide-react' (imported as 'Shower').
+
+Import trace for requested module:
+./components/features-section.tsx
+./app/page.tsx
